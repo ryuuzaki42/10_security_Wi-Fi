@@ -45,6 +45,13 @@ aircrack-ng -w BIG-WPA-LIST-1 psk-01.cap
     # Com os 4-way handshake e wordlist com a senha "correta"
 aircrack-ng -w BIG-WPA-LIST-1_s psk-02.cap
 
+## Gerenciador de conexões
+    # Pare o modo monitor na interface wlan0mon, voltando a ter wlan0 em modo managed
+airmon-ng stop wlan0mon
+
+    ## Inicie o gerenciador de conexões
+NetworkManager
+
 ## Good links
 http://www.aircrack-ng.org/doku.php?id=cracking_wpa
 http://www.wirelessdomination.com/how-to-crack-wpa2-wifi-password-using-reaver-wpa2/

