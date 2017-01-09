@@ -9,8 +9,7 @@ zemmap
 
 wireshark
 
-    # John the Ripper
-jonh
+jonh # John the Ripper
 
 kismet
 
