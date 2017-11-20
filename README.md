@@ -20,3 +20,10 @@ Alguns testes com Wi-Fi (e.g., WEP, WPA e WPA2)
 [reaver](https://code.google.com/archive/p/reaver-wps/)
 
 [wireshark](https://www.wireshark.org/)
+
+## Outros Programas
+[wavemon](https://github.com/uoaerg/wavemon/)
+
+[wifi-radar](http://wifi-radar.tuxfamily.org/)
+
+[reaver-wps-fork-t6x](https://github.com/t6x/reaver-wps-fork-t6x/)
