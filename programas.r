@@ -1,7 +1,11 @@
     ## Programas
 aircrack-ng
 
-fing
+reaver
+
+crunch
+
+fing # overlook-fing
 
 mmap
 
@@ -21,7 +25,15 @@ ping -c 3 google.com
 
 nslookup google.com
 
-nslookup -query=AAAA 2a03:2880:f000:1:face:b00c:0:1
+dig facebook.com
+
+dig -x facebook.com
+
+host facebook.com
+
+whois facebook.com
+
+nslookup -query=AAAA (IPv6)
 
     ## Outros Programas
 wavemon
