@@ -35,7 +35,6 @@ whois facebook.com
 
 nslookup -query=AAAA (IPv6)
 
-    ## Outros Programas
 wavemon
 
 wifi-radar

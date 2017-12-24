@@ -9,7 +9,6 @@
     # Irá criar uma "nova" interface em modo monitor, neste caso wlan0mon
     airmon-ng start wlan0
 
-
 ## Termine todo programas secundário que pode atrapalhar na captura
     ## Por exemplo NetworkManager e wpa_supplicant
         killall NetworkManager

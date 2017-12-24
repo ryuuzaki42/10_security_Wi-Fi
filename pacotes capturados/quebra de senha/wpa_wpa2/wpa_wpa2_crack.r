@@ -20,7 +20,7 @@
 ## Iniciar a captura de pacotes, airodump <interface>
     airodump-ng wlan0mon
 
-    ## Listar apenas de uma rede, nestecaso topcom2016
+    ## Listar apenas de uma rede, neste caso topcom2016
     airodump-ng wlan0mon --essid topcom2016
 
     ## -c channel -w output file --bssid mac do AP, wlan0mon - interface name

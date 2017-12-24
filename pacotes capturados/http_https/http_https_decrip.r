@@ -27,7 +27,7 @@
 
     ## Adicione ela no wireshark
     ​Edit -> Preferences -> IEEE 802.11
-    ​
+
     ​## Marque Enable decryption
 
     ## Aplique o filtro http no wireshark
