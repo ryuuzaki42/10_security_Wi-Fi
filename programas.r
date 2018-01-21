@@ -39,4 +39,4 @@ wavemon
 
 wifi-radar
 
-reaver-wps-fork-t6x (fork update)
+reaver-wps-fork-t6x (reaver fork update)
