@@ -1,10 +1,10 @@
     ## Generate Wordlist ##
-## Para gerar um wordlist com no mínimo 5 caracteres e no máximo 8 e utilizando os caracteres "senha"
+## Para gerar um wordlist com no mínimo 5 caracteres e no máximo 6 e utilizando os caracteres "senha"
     # crunch min max caracteres
-    crunch 5 5 senha
+    crunch 5 6 senha
 
     # -o salvar em um arquivo de saída
-    crunch 5 5 senha -o wordlist.txt
+    crunch 5 6 senha -o wordlist.txt
 
 ## wordlist com 8 caracteres e de todos caracteres
     crunch 8 8 senha -o wordlist.txt
