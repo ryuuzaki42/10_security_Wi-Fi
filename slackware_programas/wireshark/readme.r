@@ -1,5 +1,5 @@
 ## Wireshark informations
-    Wireshark (aka Ethereal) is a free packet sniffer computer application.  It
+    Wireshark (aka Ethereal) is a free packet sniffer computer application. It
     is used for network troubleshooting, analysis, software and communications
     protocol development, and education.  In June 2006, the project was renamed
     from Ethereal due to trademark issues.
@@ -19,6 +19,23 @@
     access permissions it requires, is by issuing the following command:
     $ setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap
 
+    One may also test if things are ok running this command as a normal user:
+
+    $ dumpcap -L
+
+    You may also create a special group (wireshark) and include users allowed
+    to monitor networks in that group:
+
+    # groupadd wireshark
+    # usermod -a -G wireshark <user>
+    # chgrp wireshark /usr/bin/dumpcap
+    # chmod 750 /usr/bin/dumpcap
+    # setcap cap_net_raw,cap_net_admin=eip /usr/bin/dumpcap
+    $ newgrp wireshark
+
+    Other users not in the group wireshark can still open files with previously
+    saved monitorings and inspect them.
+
     You will need to remove any already-installed wireshark package before
     building this one or else the new one will not work (the new build will
     link libraries present in the old package, which will then be removed
@@ -32,6 +49,7 @@
     - snappy
     - lz4
     - libsmi
+    - libminizip
 
     NOTE: Wireshark 3.0 no longer support legacy GTK+ UI.
 
@@ -41,6 +59,8 @@
     default is to build with lua52 if it's installed, or lua otherwise. If
     you have both lua versions installed, you can build with LUA52=no in
     the environment to build with the older lua.
+
+    This requires: lua, qt5, python3
 
 ## To build with GTK add "--with-gtk" in the ./configure command
     ./configure \
