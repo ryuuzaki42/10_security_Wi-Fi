@@ -40,3 +40,7 @@ wavemon
 wifi-radar
 
 reaver-wps-fork-t6x (reaver fork update)
+
+Passwords - Wordlists
+https://github.com/berzerk0/Probable-Wordlists/
+https://github.com/berzerk0/Probable-Wordlists/blob/master/Real-Passwords/WPA-Length/WPA-Length-Rev-2-Torrents/ProbWL-v2-Real-WPA-Passwords-targz.torrent
